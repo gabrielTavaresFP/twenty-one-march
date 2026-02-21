@@ -1,0 +1,45 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position : relative;
+}
+
+
+
+
+.barraSuperior {
+    background-color: pink; 
+    display:flex;
+    gap:15px;
+    justify-content: center;
+
+   
+}
+
+.barraSuperior a {
+    padding: 2px 15px;
+    border-radius : 25px;
+    margin-top:1px;
+    
+    background-color : rgb(229, 110, 130);
+    color:white;
+    text-decoration : none;
+    font-size : 15px;
+    height : 30px;
+    font-size: 20px;
+
+    transition : 0.3s ease;
+}
+
+
+
+
+.barraSuperior a:hover {
+    background-color : rgb(255, 0, 0);
+    color:white;
+    transform: scale(1.08);
+}
+
+
+
